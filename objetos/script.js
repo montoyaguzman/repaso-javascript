@@ -8,6 +8,17 @@ console.log(' ================= Ejemplos simples =================')
 console.log('objeto', objeto)
 console.log('objeto.id', objeto.id)
 console.log('objeto["id"]', objeto['id'])
+
+/*
+if(key === 'id') {
+  objeto.id
+} else if (key === 'name') {
+  objeto.name
+}
+// acceder a una prop por medio de su nombre
+objeto[key]
+*/
+
 // Spread operator
 console.log('{ ...objeto }', { ...objeto } )
 
