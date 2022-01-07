@@ -37,8 +37,9 @@ suma(8, 9);
 
 function retornaSuma(a, b) {
   const res = a + b;
-  const arr = [ res ];
-  return arr;
+  // const arr = [ res ];
+  return res;
 }
 const resultado = retornaSuma(8, 9);
-console.log('resultado retornaSuma(): ', resultado[0]);
+console.log('resultado retornaSuma(): ', resultado);
+// console.log('resultado retornaSuma(): ', resultado[0]);
